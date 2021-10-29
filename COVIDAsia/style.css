@@ -374,7 +374,7 @@ nav.open .links {
 }
 
 .header-content .image .img-element {
-    max-width: 200px;
+    max-width: 700px;
 }
 
 header .points1 {
@@ -1498,7 +1498,7 @@ header .circle {
         width: 11%;
     }
     .header-content .image .img-element {
-        max-width: 500px;
+        max-width: 700px;
     }
     nav .container {
         height: 4.5rem;
