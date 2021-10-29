@@ -42,13 +42,14 @@ img {
     width: 100%;
 }
 
-.container {
+.container{
     position: relative;
-    z-index: 5;
-    max-width: 92rem;
-    align-items: center;
+    display: table; /*** Used for container align center ***/
+    width: 90%;
+    max-width: 940px;
+    margin: 0 auto;
+    @media screen and (max-width: 940px) {padding: 0 20px};
 }
-
 .stop-scrolling {
     height: 100%;
     overflow: hidden;
@@ -190,6 +191,22 @@ img {
     font-weight: 600;
     font-size: 1.6rem;
     text-align: center;
+}
+.title-small {
+    color: var(--dark-one);
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.container .title-sm {
+    color: #ffffff;
+    margin-bottom: 0.9rem;
+}
+
+.container .title-small {
+    color: #000000;
+    margin-bottom: 0.9rem;
 }
 
 .points-sq {
@@ -1426,6 +1443,7 @@ header .circle {
         width: 70px;
     }
     .title-sm {
+        color: white;
         font-size: 1.2rem;
     }
     .btn {
