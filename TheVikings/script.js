@@ -70,6 +70,7 @@ function validate(){
   {
     
     swal("Success", "Form Submitted Successfuly", "success");
-    return true;
+    return false;
+
   }
 }
