@@ -13,6 +13,16 @@
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="./img/logo-vikings.png">
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-G18HP5K090"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-G18HP5K090');
+  </script>
+
   <title>THE VIKINGS</title>
 </head>
 
@@ -165,196 +175,150 @@
     </div>
   </section>
 
-  <section class="menu" id="menu">
-
-    <h3 class="sub-heading"> Our Menu </h3>
-    <h1 class="heading"> Vikings' Favorites </h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <div class="image">
-                <img src="img/menu-1.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Pizza Kings</h3>
-                <p>Indulge into mouth-watering taste of Pizza mania range, perfect answer to all your food cravings</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">₱399.00</span>
+  <section class="menu-section sec-padding menu" id="menu">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="section-title" data-aos="fade-up">
+              <h3 class="sub-heading"> Our Menu </h3>
+              <h1 class="heading"> Vikings' Favorites </h1>
             </div>
         </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="img/salad.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Salads</h3>
-                <p>Leafy-fresh goodness, light to loaded with every taste, texture, color & temperature of food we offer.</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">₱299.00</span>
+        <div class="row">
+            <div class="menu-tabs">
+                <button type="button" class="menu-tab-item active" data-target="#breakfast">breakfast</button>
+                <button type="button" class="menu-tab-item" data-target="#lunch">lunch</button>
+                <button type="button" class="menu-tab-item" data-target="#dinner">dinner</button>
+                <button type="button" class="menu-tab-item" data-target="#drinks">drinks</button>
             </div>
         </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="img/Enchiladas.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+        <div class="row menu-tab-content active" id="breakfast">   
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img src="img/Colin's Rack of Lamb with a Pistachio and Herb Crust.jpg" alt="menu item thumbnail">
+                    <h3>Colin's Rack of Lamb with a Pistachio and Herb Crus</h3>
                 </div>
-                <h3>Enchiladas</h3>
-                <p>Melty goodness rolled up in the perfect ratio of tortilla, savory sauce, fresh cheese and your favorite protein.</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">₱299.00</span>
+                <div class="menu-item-price">
+                    ₱399.00
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img src="img/salad.jpg" alt="menu item thumbnail">
+                    <h3>Salad</h3>
+                </div>
+                <div class="menu-item-price">
+                    ₱299.00
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img src="/img/kimchi-fried-rice.jpg" alt="menu item thumbnail">
+                    <h3>Kimchi Fried Rice</h3>
+                </div>
+                <div class="menu-item-price">
+                    ₱240.00
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img src="img/goodsalad.jpeg" alt="menu item thumbnail">
+                    <h3>Good Salad</h3>
+                </div>
+                <div class="menu-item-price">
+                    ₱240.00
+                </div>
+            </div>
+            
+        </div>
+        <div class="row menu-tab-content" id="lunch">  
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img src="img/burr.jpg" alt="menu item thumbnail">
+                    <h3>Burritos</h3>
+                </div>
+                <div class="menu-item-price">
+                    ₱259.00
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img src="img/Enchiladas.jpg" alt="menu item thumbnail">
+                    <h3>Enchiladas</h3>
+                </div>
+                <div class="menu-item-price">
+                    ₱299.00
+                </div>
             </div>
         </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="img/tac.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
+        <div class="row menu-tab-content" id="dinner">   
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img src="img/Khow-Suey.webp" alt="menu item thumbnail">
+                    <h3>Khow Suey</h3>
                 </div>
-                <h3>Tacos</h3>
-                <p>A deliciously-crisp tortilla cradles the most tender & flavorful proteins imaginable. Garnish with your favorite, super-fresh salsa.</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">₱259.00</span>
+                <div class="menu-item-price">
+                    ₱199.00
+                </div>
+            </div>
+            <div class="menu-item">
+                <div class="menu-item-title">
+                    <img src="img/dal-makhani.jpg" alt="menu item thumbnail">
+                    <h3>Dal Makhani</h3>
+                </div>
+                <div class="menu-item-price">
+                    ₱299.00
+                </div>
+            </div>
+            <div class="menu-item">
+              <div class="menu-item-title">
+                  <img src="img/BajaBowls.jpg" alt="menu item thumbnail">
+                  <h3>Baja Bowls</h3>
+              </div>
+              <div class="menu-item-price">
+                  ₱199.00
+              </div>
+          </div>
+          <div class="menu-item">
+            <div class="menu-item-title">
+                <img src="img/kofta.jpg" alt="menu item thumbnail">
+                <h3>Vegetarian Nargisi Kofta</h3>
+            </div>
+            <div class="menu-item-price">
+                ₱199.00
             </div>
         </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="img/burr.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Burritos</h3>
-                <p>1.8 pounds of awesomeness, smothered in love, and guaranteed to put a smile (and maybe a little sauce) on every face.</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">₱259.00</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="img/Quesadillas.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Quesadillas</h3>
-                <p>Tortillas hot off the comal stuffed with fresh Monterey Jack-Cheddar cheese…and anything else YOU want!</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">₱299.00</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="img/BajaBowls.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Baja Bowls</h3>
-                <p>Right-sized and served “unwrapped.” It’s our burrito without the tortilla; a little lower-cal and less ‘ginormous.’</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">₱199.00</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="img/bur.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Hamburger</h3>
-                <p>A classic and juicy hamburger</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">₱39.00</span>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="img/juice.jpg" alt="">
-                <a href="#" class="fas fa-heart"></a>
-            </div>
-            <div class="content">
-                <div class="stars">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star-half-alt"></i>
-                </div>
-                <h3>Pineapple Juice</h3>
-                <p>Made from pressing the natural liquid from the pulp of the pineapple</p>
-                <a href="#" class="btn">add to cart</a>
-                <span class="price">₱29.00</span>
-            </div>
-        </div>
-
     </div>
-
+    <div class="row menu-tab-content" id="drinks">  
+      <div class="menu-item">
+        <div class="menu-item-title">
+            <img src="img/juice.jpg" alt="menu item thumbnail">
+            <h3>Pineapple Juice</h3>
+        </div>
+        <div class="menu-item-price">
+            ₱29.00
+        </div>
+    </div>
+    <div class="menu-item">
+        <div class="menu-item-title">
+            <img src="img/Washington-Apple.jpg" alt="menu item thumbnail">
+            <h3>Washington Apple Juice</h3>
+        </div>
+        <div class="menu-item-price">
+            ₱29.00
+        </div>
+    </div>
+    <div class="menu-item">
+      <div class="menu-item-title">
+          <img src="img/Apple-Cider-Punch.jpg" alt="menu item thumbnail">
+          <h3>Apple Cider Punch</h3>
+      </div>
+      <div class="menu-item-price">
+          ₱29.00
+      </div>
+  </div>
+    </div>
 </section>
+
   <!--  -->
   <footer>
     <div class="container" id="about">
