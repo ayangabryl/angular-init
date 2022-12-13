@@ -1138,11 +1138,20 @@ ul.minicart .cart-price .new {
 /* 4. Breadcrumb */
 .breadcrumb-bg {
 	background-image: url(../img/bg/breadcrumb_bg.jpg);
+	
 	padding-top: 275px;
 	padding-bottom: 170px;
 	background-position: center;
 	background-size: cover;
 }
+
+#bgvideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+  }
 .s-breadcrumb-bg {
 	background-image: url(../img/bg/breadcrumb_bg02.jpg);
 }
@@ -1220,7 +1229,7 @@ ul.minicart .cart-price .new {
 	margin-bottom: 36px;
 }
 .game-overview-breadcrumb.breadcrumb-bg {
-	padding-top: 225px;
+	padding-top: 55px;
 	padding-bottom: 120px;
 }
 
