@@ -195,7 +195,7 @@ header {
 
 /* Events */
 section {
-  width: 80%;
+  width: 100%;
   margin: 80px auto;
 }
 
@@ -379,15 +379,15 @@ section {
   width: 43em;
   color: white;
   text-align: justify;
-  padding-top: 14em;
+  padding-top: 2em;
   font-family: "Work Sans", sans-serif;
-  margin-left: 6em;
+  margin: auto;
 }
 
 #about_us p::first-letter {
   padding-left: 47px;
-  font-size: 55px;
-  color: #20a106;
+  font-size: 25px;
+  color: #e8f800;
 }
 
 /* Contributors */

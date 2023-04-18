@@ -31,6 +31,16 @@ $("#hex").on("click", function () {
   $("#hex").css("border", "2px solid whitesmoke");
   $("#hex").css("border-radius", "20px");
 });
+$("#fes").on("click", function () {
+  removeall();
+  $("#fes").css("border", "2px solid whitesmoke");
+  $("#fes").css("border-radius", "20px");
+});
+$("#fod").on("click", function () {
+  removeall();
+  $("#fod").css("border", "2px solid whitesmoke");
+  $("#fod").css("border-radius", "20px");
+});
 
 // Light/Dark toggle
 const checkbox = document.getElementById('checkbox');
