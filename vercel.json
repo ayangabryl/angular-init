@@ -1,0 +1,15 @@
+{
+  "build": {
+    "env": {
+      "PUPPETEER_SKIP_CHROMIUM_DOWNLOAD": "true"
+    },
+    "plugins": [
+      {
+        "src": "build-utils/puppeteer",
+        "config": {
+          "executablePath": "chrome-aws-lambda"
+        }
+      }
+    ]
+  }
+}
