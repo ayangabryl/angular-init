@@ -150,6 +150,11 @@
     opacity: 0;
   }
 }
+@media (max-width: 480px) {
+  .discipline {
+    font-size: 1.3rem; /* Adjust the font size as needed */
+  }
+}
 
 @keyframes introTextReveal {
   0% {
