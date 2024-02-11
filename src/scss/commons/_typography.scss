@@ -1,0 +1,15 @@
+$InterFont: (
+    ($F1-Regular, 'Inter-Regular'),
+    ($F1-Medium, 'Inter-Medium'),
+    ($F1-SemiBold, 'Inter-SemiBold'),
+    ($F1-Bold, 'Inter-Bold'),
+);
+@include setFontFace($InterFont, '/assets/fonts/Inter', 'otf');
+
+// $AeonicFont: (
+//     ($F2-Regular, 'Aeonik-Regular'),
+//     ($F2-Medium, 'Aeonik-Medium'),
+//     ($F2-SemiBold, 'Aeonik-SemiBold'),
+//     ($F2-Bold, 'Aeonik-Bold'),
+// );
+// @include setFontFace($AeonicFont, '/assets/fonts/Aeonik', 'otf');

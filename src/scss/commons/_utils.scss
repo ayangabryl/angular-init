@@ -1,0 +1,33 @@
+/* CONVERT: PX TO REM;
+ * @desc : converts PX values to REM;
+ */
+@use 'sass:math';
+
+@function torem($value) {
+    @return #{math.div($value, 16)}rem;
+}
+
+@function toem($value) {
+    @return #{math.div($value, 16)}em;
+}
+
+@mixin setFontFace($fonts, $src, $type: 'ttf') {
+    @each $f in $fonts {
+        $family: nth($f, 1);
+        $font: nth($f, 2);
+        $style: 'normal';
+
+        @if length($list: $f)==3 {
+            $style: nth($f, 3);
+        }
+
+        @font-face {
+            font-family: "#{$family}";
+            src: url("#{$src}/#{$font}.#{$type}");
+            font-display: swap;
+            font-style: $style;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+    }
+}

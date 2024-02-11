@@ -1,0 +1,58 @@
+/* custom scss */
+@import 'commons/utils';
+@import 'commons/configure';
+// @import 'commons/typography';
+@import 'commons/default';
+
+@import "@ng-select/ng-select/themes/default.theme.css";
+
+
+// swiper
+@import 'swiper/scss';
+@import 'swiper/scss/navigation';
+@import 'swiper/scss/pagination';
+
+
+
+/*
+ * Bootstrap
+ */
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/helpers";
+@import "bootstrap/scss/utilities";
+
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/utilities/api";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/pagination";
+@import "bootstrap/scss/modal";
+@import "bootstrap/scss/toasts";
+@import "bootstrap/scss/badge";
+@import "bootstrap/scss/card";
+@import "bootstrap/scss/dropdown";
+@import "bootstrap/scss/alert";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/nav";
+@import "bootstrap/scss/navbar";
+@import "bootstrap/scss/transitions";
+@import "bootstrap/scss/tooltip";
+@import "bootstrap/scss/offcanvas";
+@import "bootstrap/scss/bootstrap-grid";
+@import "bootstrap/scss/breadcrumb";
+@import "bootstrap/scss/progress";
+@import "bootstrap/scss/spinners";
+@import 'bootstrap/scss/bootstrap';
+
+// Global styling
+@import 'commons/global';
+@import 'commons/themes';
+
+@import 'components/base';
+
+/* Importing Bootstrap SCSS file. */

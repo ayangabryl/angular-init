@@ -1,0 +1,90 @@
+:root {
+    --bs-body-font-family: #{$Inter};
+    --base-white: #FFFFFF;
+    --base-black: #000000;
+
+    --primary-25: #F5FAFF;
+    --primary-50: #EFF8FF;
+    --primary-100: #D1E9FF;
+    --primary-200: #B2DDFF;
+    --primary-300: #84CAFF;
+    --primary-400: #53B1FD;
+    --primary-500: #2E90FA;
+    --primary-600: #1570EF;
+    --primary-700: #175CD3;
+    --primary-800: #1849A9;
+
+    --gray-25: #FCFCFD;
+    --gray-50: #F9FAFB;
+    --gray-100: #F2F4F7;
+    --gray-200: #EAECF0;
+    --gray-300: #D0D5DD;
+    --gray-400: #98A2B3;
+    --gray-500: #667085;
+    --gray-600: #475467;
+    --gray-700: #344054;
+    --gray-800: #1D2939;
+    --gray-900: #101828;
+    
+    --gray-cool-25: #FCFCFD;
+    --gray-cool-200: #DCDFEA;
+    --gray-cool-400: #7D89B0;
+    --gray-cool-500: #5D6B98;
+    --gray-cool-600: #4A5578;
+    --gray-cool-700: #404968;
+    --gray-cool-800: #30374F;
+
+    --gray-blue-50: #F8F9FC;
+    --gray-blue-700: #363F72;
+
+    --success-25: #F6FEF9;
+    --success-50: #ECFDF3;
+    --success-100: #D1FADF;
+    --success-300: #6CE9A6;
+    --success-400: #32D583;
+    --success-500: #12B76A;
+    --success-600: #039855;
+    --success-700: #027A48;
+    --success-800: #05603A;
+
+    --error-25: #FFFBFA;
+    --error-50: #FEF3F2;
+    --error-100: #FEE4E2;
+    --error-300: #FDA29B;
+    --error-400: #F97066;
+    --error-500: #F04438;
+    --error-600: #D92D20;
+    --error-700: #B42318;
+    --error-800: #912018;
+
+    --warning-25: #FFFCF5;
+    --warning-50: #FFFAEB;
+    --warning-100: #FEF0C7;
+    --warning-300: #FEC84B;
+    --warning-400: #FDB022;
+    --warning-500: #F79009;
+    --warning-600: #DC6803;
+    --warning-700: #B54708;
+    --warning-800: #93370D;
+
+    --indigo-50: #EEF4FF;
+    --indigo-700: #3538CD;
+
+    --orange-50: #FEF6EE;
+    --orange-700: #B93815;
+
+    --pink-50: #FDF2FA;
+    --pink-700: #C11574;
+
+    --blue-light-50: #F0F9FF;
+    --blue-light-700: #026AA2;
+
+    --purple-50: #F4F3FF;
+    --purple-700: #5925DC;
+
+    --green-light-50: #F3FEE7;
+    --green-light-700: #3B7C0F;
+
+    --fuchsia-50: #FDF4FF;
+    --fuchsia-700: #9F1AB1;
+}

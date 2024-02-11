@@ -1,0 +1,68 @@
+// base background color
+:root {
+    --bs-body-color: #{$light};
+    --bs-body-font-family: #{$Inter};
+}
+
+html,
+body {
+    * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        letter-spacing: $letter-spacing-Regular;
+    }
+}
+
+em {
+    font-size: unset;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+img {
+    object-fit: cover;
+}
+
+.line-clamp {
+    display: -webkit-box;
+    -webkit-line-clamp: var(--line-clamp);
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: $light;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: $primary-100;
+    border-radius: $radius-sm;
+    &:hover {
+        background: $primary-700;
+    }
+}
+
+.ph.ph-fw {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+hr {
+    width: 100%;
+    border-color: $ams-gray-400 !important;
+}
