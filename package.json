@@ -8,7 +8,8 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "ionic:build": "npm run build",
-    "ionic:serve": "npm run start"
+    "ionic:serve": "npm run start",
+    "deploy": "ng build --prod --base-href=/angular-ci-cd/"
   },
   "private": true,
   "dependencies": {
